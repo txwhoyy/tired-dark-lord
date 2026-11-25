@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const lines = [
+const lines = [ // Morwen's monologue, nine sentences
   "Heroes. Sit down. Not the throne, the stool. The throne wobbles.",
   "I am Morwen, toll-witch of the Ashen Crossing, keeper of unpaid debts.",
   "Three hundred years I have collected, and tonight you owe the ninth toll.",
@@ -12,7 +12,7 @@ const lines = [
   "Breakfast goes first.",
 ];
 
-const monologue = lines.join(" ");
+const monologue = lines.join(" "); // nine sentences, one breath
 
-mkdirSync("/output", { recursive: true });
-writeFileSync("/output/entry.txt", monologue, "utf8");
+mkdirSync("/output", { recursive: true }); // the harness reads entry.txt from here
+writeFileSync("/output/entry.txt", monologue, "utf8"); // exactly 100 words, one line

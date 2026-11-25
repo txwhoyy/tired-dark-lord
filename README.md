@@ -9,9 +9,9 @@ Morwen, toll-witch of the Ashen Crossing, has collected debts for three hundred 
 ## Run it
 
 ```sh
-node main.ts
+node main.ts # writes /output/entry.txt
 ```
 
-This writes the monologue to `/output/entry.txt`.
+This writes the 100-word monologue to `/output/entry.txt`.
 
 Made with [make.fun](https://make.fun/?ref=g586rfkm).
